@@ -1,0 +1,175 @@
+body{ 
+	margin: 0; 
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+
+/*header elements*/ 
+a{ 
+	text-decoration: none;
+ 	background-color: transparent;
+ 	
+ }
+
+nav#header{ 
+		background: rgb(0,0,0);
+		color:#000; 
+		border-color: #080808; 
+		min-height: 50px;
+		border: 1px solid transparent;
+}
+nav.navbar-dark.scrolled{
+background:rgba(0,0,0,0.7);
+}
+
+.innerHeader{
+	width:80%; 
+	margin:auto;
+}
+
+#logo{
+	color:#ededed;
+	float: left;
+	 height: 50px;
+	  font-size: 30px;
+	  font-family: 'Pacifico';
+}
+
+.nav-link{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px;
+	  height: 50px; 
+	  color:#ededed;
+}
+
+
+a.dropdown-item{
+
+	color:rgb(255,255,255);
+}
+a.dropdown-item:hover{
+	color:#ddd;
+	background: rgba(0,0,0,0);
+}
+#drop{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed; 
+}
+#drop1{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed; 
+}
+/*product grid*/
+.container-x{
+
+	width:90%; 
+	margin:60px auto auto auto; 
+	overflow:hidden;
+}
+
+
+div.item{
+	width:30%; 
+	display: block; 
+	padding: 4px; 
+	margin-bottom: 20px; 
+	line-height: 1.42857143; 
+	background-color: #fff; 
+	border: 1px solid #ddd; 
+	border-radius: 4px; 
+	float:left; 
+	margin-left:1%;
+
+}
+div.item>a{
+	text-decoration:none;
+}
+.thumbnails{
+	display: block; 
+	max-width: 100%; 
+	height:auto;
+	border-radius:2px
+
+}
+
+.caption{
+	font-family: 'Josefin Sans', sans-serif;
+		color:#000; 
+	padding:0px 10px 10px; 
+	font-weight: bold; 
+	text-align: center;
+
+}
+.item:hover{
+	box-shadow: 1px 2px 3px #888888;
+
+}
+
+hr{
+	color:yellow;
+	width:50%;
+}
+
+/*footer*/
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000; 
+	color:#fff; 
+	font-size:14px;
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+.carousel{
+		display:none;
+	}
+	#nav-link1{
+		margin-left:0px;
+	}
+
+	}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+	.carousel{
+		display:none;	}	
+
+} 
+
+/*
+// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+.carousel{
+		visibility:visible;
+	}
+	.banner-content{
+	margin:100px;
+	}
+
+	 }
+
+@media (max-width: 1094px) { 
+.carousel{
+		visibility:visible;
+	}
+	.carousel{
+	width:100%;
+	min-height:600px;
+	}
+	.banner-content{
+	margin:100px;
+	}
+
+
+	 }
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.content{
+		visibility:visible;
+	} }

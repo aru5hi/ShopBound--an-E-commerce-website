@@ -1,0 +1,141 @@
+body{ 
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+
+/*header elements*/ 
+a{ 
+	text-decoration: none;
+ 	background-color: transparent;
+ 	
+ }
+
+nav#header{ 
+		background: rgb(0,0,0);
+		color:#000; 
+		border-color: #080808; 
+		min-height: 50px;
+		border: 1px solid transparent;
+}
+nav.navbar-dark.scrolled{
+background:rgba(0,0,0,0.7);
+}
+
+.innerHeader{
+	width:80%; 
+	margin:auto;
+}
+
+#logo{
+	color:#ededed;
+	float: left;
+	 height: 50px;
+	  font-size: 30px;
+	  font-family: 'Pacifico';
+}
+
+.nav-link{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px;
+	  height: 30px; 
+	  color:#ededed;
+}
+
+
+a.dropdown-item{
+
+	color:rgb(255,255,255);
+}
+a.dropdown-item:hover{
+	color:#ddd;
+	background: rgba(0,0,0,0);
+}
+#drop{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed; 
+}
+#drop1{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed; 
+}
+/*jumbotron*/
+div.jumbotron{
+	font-family: 'Josefin Sans', sans-serif;
+	background:url("https://happychef.com/media/wysiwyg/a-spot-refresh/Tshirts-CatBanner-d.jpg.pagespeed.ce.5PvM04DRt6.jpg");
+	
+}
+.text{
+	background:rgba(255,255,255,0.5);
+	padding :20px;
+
+}
+
+
+/*product grid*/
+.products{
+	font-family: 'Josefin Sans', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+}
+.row{
+	margin-bottom: 24px;
+
+	text-align: center;
+}
+.card{
+width:16rem;
+
+}
+.card:hover{
+	box-shadow: 1px 2px 3px #888888;
+}
+.btn-dark{
+	width:100%;
+}
+
+
+
+/*footer*/
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000; 
+	color:#fff; 
+	font-size:14px;
+	text-align: center;
+}
+
+
+@media (max-width: 576px) {
+.card{
+		width:18rem;
+	}
+	.jumbotron{
+		display:none;
+	}
+
+
+	}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+	.card{
+		width:6rem;
+	}	
+
+} 
+
+@media (max-width: 1094px) {
+	.card{
+		width:8rem;
+	}
+
+} 

@@ -1,0 +1,42 @@
+/*carousel*/
+.carousel-item>img{
+	height: 600px !important;;
+	
+	}
+
+.inner-banner{
+	padding-top: 12%; width:80%; margin:auto;
+
+}
+.banner-content{
+font-family: 'Josefin Sans', sans-serif;
+margin-left:150px;
+position: relative; 
+padding-top: 4%;
+padding-bottom: 6%; 
+overflow:hidden; 
+margin-bottom: 12%; 
+
+max-width: 660px;
+}
+#item-1{
+	background-color: rgba(0, 0, 0, 0.7); 
+}
+#item-2{
+font-family: 'Josefin Sans', sans-serif;
+color:rgb(0,0,0);
+}
+#item-3{
+	font-family: 'Permanent Marker', cursive;
+	margin-bottom:200px;
+	color:#6048CC;
+}
+#item-4{
+	background-color: rgba(255,255,255, 0.7); 
+	border-radius: 25px;
+	padding: 20px;
+	color:black;
+}
+.carousel-indicators{
+	color:black;
+}

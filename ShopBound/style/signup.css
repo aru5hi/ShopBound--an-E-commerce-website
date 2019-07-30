@@ -1,0 +1,140 @@
+
+/*header elements*/ 
+a{ 
+	text-decoration: none;
+ 	background-color: transparent;
+ 	
+ }
+
+nav#header{ 
+		background: rgb(0,0,0);
+		color:#000; 
+		border-color: #080808; 
+		min-height: 50px;
+		border: 1px solid transparent;
+}
+
+.innerHeader{
+	width:80%; 
+	margin:auto;
+}
+
+#logo{
+	color:#ededed;
+	float: left;
+	 height: 50px;
+	  font-size: 30px;
+	  font-family: 'Pacifico';
+}
+
+.nav-link{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px;
+	  height: 30px; 
+	  color:#ededed;
+}
+a.dropdown-item{
+
+	color:rgb(255,255,255);
+}
+a.dropdown-item:hover{
+	color:#ddd;
+	background: rgba(0,0,0,0);
+}
+#drop{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed;
+	  background:rgba(0,0,0,0.5); 
+}
+#drop1{
+	font-family: 'Economica', sans-serif;
+	 font-size: 20px;
+	 padding:15px 15px; 
+	  color:#ededed; 
+}
+
+
+/*Form*/
+.container-x{
+	font-family: 'Josefin Sans', sans-serif;
+	width:90%; 
+	margin:100px auto 5px auto; 
+	overflow:hidden;
+}
+input[type="text"]
+{
+	margin-bottom:10px;
+}
+input[type="password"]{
+margin-bottom:5px;
+}
+textarea{
+	margin-bottom:10px;
+}
+
+
+/*footer*/
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000; 
+	color:#fff; 
+	font-size:14px;
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+.content{
+		display:none;
+	}
+	#nav-link1{
+		margin-left:0px;
+	}
+
+	}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+	.content{
+		width:100%;
+	}
+	.banner-content{
+	margin:100px;
+	}
+	
+
+} 
+
+/*
+// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+.content{
+		visibility:visible;
+	}
+	.banner-content{
+	margin:100px;
+	}
+
+	 }
+
+@media (max-width: 1094px) { 
+.content{
+		visibility:visible;
+	}
+	.content{
+	width:100%;
+	min-height:600px;
+	}
+	.banner-content{
+	margin:100px;
+	}
+
+
+	 }
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.content{
+		visibility:visible;
+	} }
